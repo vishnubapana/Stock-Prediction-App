@@ -13,9 +13,9 @@ const Team = (props) => {
           <br/>
             <a href='https://github.com/vishnubapana'>github</a>
           <br/>
-            <CardText align='left'>Graduted with a Bachelors in Computer Engineering, 
-            and currently persuing a Masters in Computer Science with a focus in 
-            Intelligent Systems and Data Science.</CardText>
+            <CardText align='left'>Graduated with a Bachelors in Computer Engineering and 
+              currently pursuing a Masters in Computer Science with a focus in 
+              Intelligent Systems and Data Science.</CardText>
             </CardText>
         </CardBody>
       </Card>
