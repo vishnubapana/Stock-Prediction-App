@@ -39,9 +39,14 @@ const Team = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardBody>
+      <CardBody>
           <CardTitle>Ryan Dimaranan</CardTitle>
-          <CardText align='left'>Computer Science</CardText>
+          <CardText align='left'>Computer Science
+          <br/>
+            <a href='https://github.com/ryannd'>github</a>
+          <br/>
+            <CardText align='left'>Sophomore Computer Science major with career interests in web development and machine learning.</CardText>
+            </CardText>
         </CardBody>
       </Card>
     </CardGroup>
