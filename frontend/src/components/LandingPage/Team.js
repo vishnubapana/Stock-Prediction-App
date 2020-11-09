@@ -11,18 +11,20 @@ const Team = (props) => {
           <CardTitle>Vishnu Bapanapalli</CardTitle>
           <CardText align='left'>Computer Science
           <br/>
-            <a href='https://github.com/vishnubapana'>github</a>
+          <a href='https://github.com/vishnubapana'>github</a>
           <br/>
-            <CardText align='left'>Graduated with a Bachelors in Computer Engineering and 
+          <CardText align='left'>Graduated with a Bachelors in Computer Engineering and 
               currently pursuing a Masters in Computer Science with a focus in 
               Intelligent Systems and Data Science.</CardText>
-            </CardText>
+          </CardText>
         </CardBody>
       </Card>
       <Card>
         <CardBody>
           <CardTitle>Damian Ozuna</CardTitle>
           <CardText align='left'>Computer Science</CardText>
+          <br/>
+          <a href ="https://github.com/DamianOzuna">github</a>
           <br/>
         </CardBody>
       </Card>
@@ -43,10 +45,10 @@ const Team = (props) => {
           <CardTitle>Ryan Dimaranan</CardTitle>
           <CardText align='left'>Computer Science
           <br/>
-            <a href='https://github.com/ryannd'>github</a>
+          <a href='https://github.com/ryannd'>github</a>
           <br/>
-            <CardText align='left'>Sophomore Computer Science major with career interests in web development and machine learning.</CardText>
-            </CardText>
+          <CardText align='left'>Sophomore Computer Science major with career interests in web development and machine learning.</CardText>
+          </CardText>
         </CardBody>
       </Card>
     </CardGroup>
