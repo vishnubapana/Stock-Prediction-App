@@ -7,9 +7,9 @@ import {
 function Features() {
     return (
         <div>
-            <h1>Features of this Application</h1>
+            <h1 className="text-center">Features of this Application</h1>
             
-            <CardDeck>
+            <CardDeck className="text-center">
                 <Card>
                     <CardBody>
                         <CardTitle tag="h4">Guess Prices</CardTitle>
