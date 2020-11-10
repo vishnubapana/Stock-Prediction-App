@@ -14,7 +14,7 @@ function NavBar()
         <div>
 
             <Navbar color = "light" light expand = "md">      
-                <NavbarBrand className="Brand">Stock Prediction MW11-1</NavbarBrand>
+                <NavbarBrand className="Brand" href = "#">Stock Prediction MW11-1</NavbarBrand>
 
                 <Nav navbar>
                     <NavItem>
