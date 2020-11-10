@@ -14,23 +14,23 @@ function NavBar()
         <div>
 
             <Navbar color = "light" light expand = "md">      
-                <NavbarBrand>Stock Prediction MW11-1</NavbarBrand>
+                <NavbarBrand className="Brand">Stock Prediction MW11-1</NavbarBrand>
 
                 <Nav navbar>
                     <NavItem>
-                        <NavLink href = "https://github.com/Codubee/StockPredictionMW11-1">GitHub</NavLink>
+                        <NavLink className="nav-link" href = "https://github.com/Codubee/StockPredictionMW11-1">GitHub</NavLink>
                     </NavItem>
                 </Nav>
 
                 <Nav navbar>
                     <NavItem>
-                        <NavLink href = "#User Input">User Input</NavLink>
+                        <NavLink  className="nav-link" href = "#">User Input</NavLink>
                     </NavItem>
                 </Nav>
 
                 <Nav navbar>
                     <NavItem>
-                        <NavLink href = "#Home Page">Home Page</NavLink>
+                        <NavLink className="nav-link" href = "#">Home Page</NavLink>
                     </NavItem>
                 </Nav>
 
