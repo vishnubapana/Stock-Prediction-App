@@ -30,14 +30,24 @@ const Team = (props) => {
       </Card>
       <Card>
         <CardBody>
-          <CardTitle>Joshua Durana</CardTitle>
-          <CardText align='left'>Computer Science</CardText>
+        <CardTitle>Joshua Durana</CardTitle>
+          <CardText align='left'>Computer Science
+          <br/>
+          <a href='https://github.com/PretaxEnd9716'>github</a>
+          <br/>
+          <CardText align='left'>A computer science sophomore with interests in machine learning and computer vision.</CardText>
+          </CardText>
         </CardBody>
       </Card>
       <Card>
-        <CardBody>
-          <CardTitle>Kenny Ngo</CardTitle>
-          <CardText align='left'>Computer Science</CardText>
+      <CardBody>
+        <CardTitle>Kenny Ngo</CardTitle>
+          <CardText align='left'>Computer Science
+          <br/>
+          <a href='https://github.com/kNgo8249'>github</a>
+          <br/>
+          <CardText align='left'>Junior CS major with career interests in cybersecurity and networks.</CardText>
+          </CardText>
         </CardBody>
       </Card>
       <Card>
