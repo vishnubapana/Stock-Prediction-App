@@ -11,16 +11,16 @@ describe('Test features component', () => {
     });
 
     it('Check if title text renders properly', () => {
-        expect(wrapper.text().includes("Features of this Application")).toBe(true);
+        expect(wrapper.text().includes("Features of our Application")).toBe(true);
     }); 
 
     it('Check if cards render text properly', () => {
-         render(<Features/>);
-         let cardTitles = [/Guess Prices/i, /Get Stock Information/i, /Get Current News/i]
-         cardTitles.forEach(element => {
-             const textElement = screen.getByText(element);
-             expect(textElement).toBeInTheDocument();
-         });
+        render(<Features/>);
+        let cardTitles = [/Guess Future Stock Prices/i, /Get Stock Information/i, /Get Current News/i]
+        cardTitles.forEach(element => {
+            const textElement = screen.getByText(element);
+            expect(textElement).toBeInTheDocument();
+        });
     }); 
 
 });
