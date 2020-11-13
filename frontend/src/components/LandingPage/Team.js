@@ -22,10 +22,12 @@ const Team = (props) => {
       <Card>
         <CardBody>
           <CardTitle>Damian Ozuna</CardTitle>
-          <CardText align='left'>Computer Science</CardText>
+          <CardText align='left'>Computer Science
           <br/>
           <a href ="https://github.com/DamianOzuna">github</a>
           <br/>
+          <CardText align='left'>I'm a 3rd year CS student. In my free time I enjoy gaming, swimming, and watching movies.</CardText>
+          </CardText>
         </CardBody>
       </Card>
       <Card>
