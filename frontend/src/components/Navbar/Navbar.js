@@ -9,10 +9,8 @@ import {
 
 function NavBar()
 {
-    //Navbar for github link, user input, and home page
     return(
         <div>
-
             <Navbar color = "light" light expand = "md">      
                 <NavbarBrand className="nav-brand" href = "#">Stock Prediction MW11-1</NavbarBrand>
                 <Nav navbar>
