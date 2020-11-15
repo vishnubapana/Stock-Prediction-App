@@ -16,9 +16,20 @@ describe('Test features component', () => {
 
     it('Check if cards render text properly', () => {
         render(<Features/>);
-        let cardTitles = [/Guess Future Stock Prices/i, /Get Stock Information/i, /Get Current News/i]
-        cardTitles.forEach(element => {
-            const textElement = screen.getByText(element);
+
+        let cardElements = [
+            {title: /Guess Future Stock Prices/i, subtitle: /Less uncertainty/i, textSnippet: /Stocks are unpredicatble and always fluctuating./i},
+            {title: /Get Stock Information/i, subtitle: /All the data you need/i, textSnippet: /Get all the information you need/i},
+            {title: /Get Current News/i, subtitle: /Stay informed/i, textSnippet: /Our website provides the latest news/i}
+        ];
+
+        cardElements.forEach(element => {
+            const titleElement = screen.getByText(element.title);
+            const subtitleElement = screen.getByText(element.subtitle);
+            const textElement = screen.getByText(element.textSnippet);
+
+            expect(titleElement).toBeInTheDocument();
+            expect(subtitleElement).toBeInTheDocument();
             expect(textElement).toBeInTheDocument();
         });
     }); 
