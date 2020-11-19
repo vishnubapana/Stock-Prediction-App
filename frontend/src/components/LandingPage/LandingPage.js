@@ -1,5 +1,5 @@
 import React from 'react'
-import Tools from '../Tools'
+import Tools from './Tools/Tools.js'
 
 function LandingPage(){
     return(
