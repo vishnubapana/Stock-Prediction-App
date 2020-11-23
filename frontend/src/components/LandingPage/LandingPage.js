@@ -1,9 +1,14 @@
 import React from 'react'
-import Tools from './Tools/Tools.js'
+import Features from './Features/Features'
+import Tools from './Tools/Tools'
 
 function LandingPage(){
     return(
-        <Tools/>
+        <>
+            <Features/>
+            <Tools/>
+        </>
+
     )
 }
 
