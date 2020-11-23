@@ -1,9 +1,9 @@
 import React from 'react';
 import {
-  Card, CardTitle, CardText, CardGroup, CardBody
+  Card, CardTitle, CardText, CardGroup, CardBody, CardLink
 } from 'reactstrap';
 
-const Team = (props) => {
+function Team(props) {
   return (
     <div>
       <h1> Meet the Team Members</h1>
@@ -13,7 +13,7 @@ const Team = (props) => {
             <CardTitle>Vishnu Bapanapalli</CardTitle>
             <CardText align='left'>Computer Science
             <br/>
-            <a href='https://github.com/vishnubapana'>github</a>
+            <CardLink href='https://github.com/vishnubapana'>github</CardLink>
             <br/>
                 Graduated with a Bachelors in Computer Engineering and 
                 currently pursuing a Masters in Computer Science with a focus in 
@@ -26,7 +26,7 @@ const Team = (props) => {
             <CardTitle>Damian Ozuna</CardTitle>
             <CardText align='left'>Computer Science
             <br/>
-            <a href ="https://github.com/DamianOzuna">github</a>
+            <CardLink href ="https://github.com/DamianOzuna">github</CardLink>
             <br/>
             I'm a 3rd year CS student. In my free time I enjoy gaming, swimming, and watching movies.
             </CardText>
@@ -37,7 +37,7 @@ const Team = (props) => {
           <CardTitle>Joshua Durana</CardTitle>
             <CardText align='left'>Computer Science
             <br/>
-            <a href='https://github.com/PretaxEnd9716'>github</a>
+            <CardLink href='https://github.com/PretaxEnd9716'>github</CardLink>
             <br/>
             A computer science sophomore with interests in machine learning and computer vision.
             </CardText>
@@ -48,7 +48,7 @@ const Team = (props) => {
           <CardTitle>Kenny Ngo</CardTitle>
             <CardText align='left'>Computer Science
             <br/>
-            <a href='https://github.com/kNgo8249'>github</a>
+            <CardLink href='https://github.com/kNgo8249'>github</CardLink>
             <br/>
             Junior CS major with career interests in cybersecurity and networks.
             </CardText>
@@ -59,7 +59,7 @@ const Team = (props) => {
             <CardTitle>Ryan Dimaranan</CardTitle>
             <CardText align='left'>Computer Science
             <br/>
-            <a href='https://github.com/ryannd'>github</a>
+            <CardLink href='https://github.com/ryannd'>github</CardLink>
             <br/>
             Sophomore Computer Science major with career interests in web development and machine learning.
             </CardText>
