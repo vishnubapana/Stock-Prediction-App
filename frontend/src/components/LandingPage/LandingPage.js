@@ -1,11 +1,16 @@
 import React from 'react'
-import Explanation from './Explanation/Explanation';
-//Import components that you create here
+import Features from './Features/Features'
+import Team from './Team/Team'
+import Explanation from './Explanation/Explanation'
 
 function LandingPage(){
     return(
-        //Use components that you import here
-        <Explanation/>
+        <>
+            <Explanation/>
+            <Features/>
+            <Team/>
+            
+        </>
     )
 }
 
