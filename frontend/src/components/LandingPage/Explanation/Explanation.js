@@ -1,0 +1,21 @@
+import React from 'react';
+import { Jumbotron } from 'reactstrap';
+
+function Explanation() {
+  return (
+    <div>
+      <Jumbotron>
+        <h1 className="display-3">Stock Prediction</h1>
+        <p className="lead">This project will predict stock price outlook based on news headlines</p>
+        <hr className="my-2" />
+        <p>
+          This project was created during the Fall 2020 session of Codubee.
+          We built this project as a way to try and guess which stocks might do well or not depending on recent news headlines.
+          This project was created for educational purposes and should not be used to buy and trade stocks.
+        </p>
+      </Jumbotron>
+    </div>
+  );
+};
+
+export default Explanation;
