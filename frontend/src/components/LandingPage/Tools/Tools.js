@@ -7,7 +7,7 @@ import "./Tools.css";
 export default function Tools(){
     return(
         <div className="tools-container">
-            <p className="text-center primary-font">Tools used in this project: </p>
+            <h1 className="text-center primary-font">Tools used in this project: </h1>
             <CardDeck>
                 <Card className="rounded-edges">
                     <CardBody>
